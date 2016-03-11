@@ -1,3 +1,18 @@
+/**
+ * YOU CAN SAFELY REMOVE THIS FILE.
+ * FILE FOR DEMO PURPOSE ONLY
+ *
+ * Notes:
+ *
+ * This file contains the store for the cart. The store contains two parts:
+ *
+ * 1. The initial state: Which defines the state object when it's just created
+ * 2. Logic on how to apply "mutations". A mutation is simply a clear "atomic" change
+ *    which has a clear and single purpose of modifying the state in a particular way
+ */
+
+// What kind of mutations are we handling? import them so any
+// typing mistakes are caught easily by the compiler.
 import {
   ADD_TO_CART,
   CHECKOUT_REQUEST,
@@ -5,7 +20,6 @@ import {
   CHECKOUT_FAILURE
 } from '../mutation-types'
 
-// initial state
 // shape: [{ id, quantity }]
 const state = {
   added: [],
