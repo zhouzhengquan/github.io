@@ -15,23 +15,14 @@
   export default {
     vuex: {
       getters: {
-        products: ({ products }) => products.all
+        product: ({products, route}) => {
+          var id = parseInt(route.params.id)
+          return products.all.find((p) => p.id === id) || {}
+        }
       },
       actions: {
         getAllProducts,
         addToCart
-      }
-    },
-    computed: {
-      product () {
-        var id = this.id
-        return this.products.find((p) => p.id === id) || {
-        }
-      }
-    },
-    data () {
-      return {
-        id: parseInt(this.$route.params.id)
       }
     },
     created () {
