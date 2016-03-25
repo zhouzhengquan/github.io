@@ -1,21 +1,15 @@
-# webpack-spa
+# Example Vue.js Single Page App
 
-> A Vue.js project
+### [Live demo](http://crudkit.com/vue-spa/)
 
-## Build Setup
+This is my evolving attempt to build a full single page app with the vuejs ecosystem. This uses:
 
-``` bash
-# install dependencies
-npm install
+* Vue for rendering
+* Vue-router for routing
+* Vuex for state management
+* The standard `vue-cli` based webpack build system and file layout
 
-# serve with hot reload at localhost:8080
-npm run dev
+Coming Soon:
 
-# build for production with minification
-npm run build
-
-# run unit tests
-npm test
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* Authentication and JWT
+* Wrapping jQuery UI components into directives
