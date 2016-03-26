@@ -7,7 +7,7 @@ This is my evolving attempt to build a full single page app with the vuejs ecosy
 * [vue](https://github.com/vuejs/vue) for rendering
 * [vue-router](https://github.com/vuejs/vue-router) for routing
 * [vuex](https://github.com/vuejs/vuex) for state management
-* [vuex-router-sync](https://github.com/vuejs/vue-router-sync) to keep the router in sync with vuex
+* [vuex-router-sync](https://github.com/vuejs/vuex-router-sync) to keep the router in sync with vuex
 * The standard `vue-cli` based webpack build system and file layout
 
 Coming Soon:
